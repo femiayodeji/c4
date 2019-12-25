@@ -1,0 +1,32 @@
+.explosive{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: rgba(255,0,0,1);
+	color: rgba(255,0,0,1);
+	border-radius: 50px;
+	box-shadow: 0 0 20px rgba(255,0,0,1),
+				0 0 40px rgba(255,0,0,1),
+				0 0 60px rgba(255,0,0,1),
+				0 0 80px rgba(255,0,0,1),
+				0 0 160px rgba(255,0,0,1),
+				0 0 240px rgba(255,0,0,1),
+				0 0 420px rgba(255,0,0,1);
+    animation: animate 0.5s infinite;
+	transition: 2s;
+}
+@keyframes animate{
+    0%{
+    }
+    100%{
+		box-shadow: 0 0 30px rgba(255,0,0,.1),
+					0 0 60px rgba(255,0,0,.1),
+					0 0 120px rgba(255,0,0,.1),
+					0 0 180px rgba(255,0,0,.1),
+					0 0 240px rgba(255,0,0,.1),
+					0 0 360px rgba(255,0,0,.1),
+					0 0 480px rgba(255,0,0,.1),
+					0 0 720px rgba(255,0,0,.1),
+					0 0 980px rgba(255,0,0,.1);
+    }
+ }

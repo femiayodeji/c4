@@ -1,0 +1,51 @@
+body{
+	padding: 0px;
+	margin: 0px;
+    font-family: sans-serif;
+}
+.scene{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url(../img/scene.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.scene-content{
+    margin: 0;
+    padding: 0;
+    /*left: 25%;*/
+    /*top: 100px;*/
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-shadow: 1px 1px 1px #000000;    
+}
+
+#particles{
+    background: rgba(22,11,78,0.8);
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+/*background*/
+
+/*text*/
+.title-1{
+    font-size: 500%;
+    font-weight: bolder;
+}
+.title-2{
+    font-size:150%;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family: monospace, monospace;
+}
+.text-footer{
+    text-align: center !important;
+    font-size: 70%;
+    font-weight: normal;    
+}

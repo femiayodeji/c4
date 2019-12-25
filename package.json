@@ -1,0 +1,17 @@
+{
+  "name": "c4",
+  "version": "1.0.0",
+  "description": "Website for Code Can Conquer Crimes Hackathon.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "feminstincts",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.15.4"
+  }
+}
