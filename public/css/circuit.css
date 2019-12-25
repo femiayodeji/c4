@@ -1,7 +1,7 @@
 .btn-circuit{
     position: absolute;
     top: 120%;
-    left: 49%;
+    left: 48%;
     transform: translate(-50%,-50%);
     color: #1670f0;
     padding: 20px 40px;
@@ -12,6 +12,11 @@
     box-shadow: 0 20px 50px rgba(0,0,0,.5);
     /*overflow: hidden;*/
 }
+.btn-circuit:hover,.btn-circuit:active,.btn-circuit:focus{
+    background: #1670f0;
+    opacity: 0.7;
+}
+
 .btn-circuit:before{
     content: '';
     position: absolute;

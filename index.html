@@ -13,35 +13,39 @@
 </head>
 
 <body>
-	<nav class="navbar sticky-top shadow navbar-expand-lg navbar-dark bg-dark text-light">
-		<a class="navbar-brand text-light" href="/">C4</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar-sticky">
+		<ul>
+		  <li><a class="active" href="/">C4</a></li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">.init</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">About</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Objectives</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Prizes</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Core</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Contact</a>
+		  </li>
+		</ul>
+		<!-- <a class="navbar-brand text-light" href="/">C4</a> -->
+
+<!-- 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-			  <li class="nav-item active">
-			    <a class="nav-link" href="#">Init</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">About</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Objectives</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Prizes</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Core</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Contact</a>
-			  </li>
 			</ul>
 		</div>
-	</nav>
+ -->	</nav>
 
 	<div class="container-fluid scene">
         <div id="particles">
@@ -52,7 +56,7 @@
 	            	<b class="explosive"></b>
 	            </p>
 	            <div class="text-center">
-		            <a href="#" class="btn btn-lg btn-dark btn-circuit m-4">
+		            <a href="#" class="btn btn-lg btn-circuit m-4 text-light">
 		            	<span></span>
 		            	<span></span>
 		            	<span></span>
@@ -76,17 +80,15 @@
         </div>
 	</div>
 
-	<nav class="navbar fixed-bottom navbar-primary bg-dark m-2">
-		<div class="container text-footer">
-			<p class="text-light">
-				&copy; copyright NACOSSUI
-				<script type="text/javascript">
-					document.write(new Date().getFullYear());
-				</script>. 
-				Designed by <a class="text-light" href="https://feminstincts.github.io/" target="_blank">Instincts</a>.
-			</p>
-		</div>
-	</nav>
+	<div class="container  bg-dark p-2 text-footer">
+		<p class="text-light">
+			&copy; copyright NACOSSUI
+			<script type="text/javascript">
+				document.write(new Date().getFullYear());
+			</script>. 
+			Designed by <a class="text-light" href="https://feminstincts.github.io/" target="_blank">Instincts</a>.
+		</p>
+	</div>
 
 	<div class="container-fluid ">
 	</div>

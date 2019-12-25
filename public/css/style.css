@@ -3,6 +3,37 @@ body{
 	margin: 0px;
     font-family: sans-serif;
 }
+.navbar-sticky ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3132cB;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.navbar-sticky li {
+  float: left;
+}
+
+.navbar-sticky li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-sticky li a:hover {
+  background-color: #160b4E;
+}
+
+.navbar-sticky .active {
+  background-color: #160b4E;
+}
+
 .scene{
     text-align: center;
     margin: 0;
