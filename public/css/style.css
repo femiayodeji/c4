@@ -85,6 +85,7 @@ section{
 }
 /*text*/
 .title-1{
+  text-shadow: 10px 10px 10px rgba(0,0,0,0.6);
   color: #ffffff;
   font-size: 500%;
   font-weight: bolder;

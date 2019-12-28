@@ -2,17 +2,18 @@
     /*display: none;*/
     position: absolute;
     /*top: 100%;*/
-    left: 48%;
+    /*left: 48%;*/
     transform: translate(-50%,-50%);
     color: #ffffff;
-    margin: 20px;
+    margin: 20px 0;
     padding: 20px 40px;
+    width: 200px;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
     box-shadow: 0 20px 50px rgba(0,0,0,.5);
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .btn-circuit:hover,.btn-circuit:active,.btn-circuit:focus{
     background: #1670f0;
