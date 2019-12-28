@@ -11,10 +11,10 @@
 				0 0 160px rgba(255,0,0,1),
 				0 0 240px rgba(255,0,0,1),
 				0 0 420px rgba(255,0,0,1);
-    animation: animate 0.5s infinite;
+    animation: explode 0.5s infinite;
 	transition: 2s;
 }
-@keyframes animate{
+@keyframes explode{
     0%{
     }
     100%{

@@ -1,11 +1,13 @@
 .btn-circuit{
+    /*display: none;*/
     position: absolute;
-    top: 120%;
+    /*top: 100%;*/
     left: 48%;
     transform: translate(-50%,-50%);
-    color: #1670f0;
+    color: #ffffff;
+    margin: 20px;
     padding: 20px 40px;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
@@ -14,15 +16,17 @@
 }
 .btn-circuit:hover,.btn-circuit:active,.btn-circuit:focus{
     background: #1670f0;
+    color: #ffffff;
+    text-decoration: none;
     opacity: 0.7;
 }
 
 .btn-circuit:before{
     content: '';
-    position: absolute;
+/*    position: absolute;
     top: 2px;
     left: 2px;
-    bottom: 2px;
+    bottom: 2px;*/
     width: 50%;
     background: rgba(255,255,255,0.05);
 }
