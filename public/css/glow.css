@@ -1,11 +1,12 @@
 .glow{
-    background: rgba(22,11,78,0.8);
-    border-radius: 20px;
-    width: 230px;
+    background: rgb(22,11,78);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     box-shadow: 5px 5px 5px rgba(22,11,60,0.7);
     color: rgba(22,11,78,0.8);
-    padding: 20px;
+    padding: 40px;
 }
 .glow > span{
     text-transform: uppercase;
@@ -63,6 +64,8 @@
                     0 0 128px rgb(22,112,240),
                     0 0 256px rgb(22,112,240),
                     0 0 512px rgb(22,112,240),
-                    0 0 1024px rgb(22,112,240);
+                    0 0 1024px rgb(22,112,240),
+                    0 0 2048px rgb(22,112,240),
+                    0 0 4096px rgb(22,112,240);
     }
  }
