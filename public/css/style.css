@@ -2,6 +2,7 @@ body{
 	padding: 0px;
 	margin: 0px;
   font-family: century gothic, sans-serif;
+  overflow-x: hidden !important;
 }
 .navbar ul {
   /*display: none;*/
