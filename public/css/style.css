@@ -159,6 +159,11 @@ section{
 br,hr{
   margin: 8px 0;
 }
+p,div{
+  text-align: justify-all;
+}
+
+
 /*image*/
 .img-host{
   width: 100px;
