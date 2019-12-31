@@ -1,16 +1,13 @@
-.typewriter p{
+.typewriter{
+    display: inline-block;
     width: 1px;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.typewriter p:nth-child(1){
+.typewriter{
     animation: typing 5s infinite;
 }
-/*.typewriter p:nth-child(2){
-    animation: typing 5s infinite;
-    animation-delay: 10s;
-}*/
 @keyframes typing{
     0%{
         border-right: 1px solid #000;

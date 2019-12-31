@@ -62,9 +62,6 @@ body{
     text-shadow: 1px 1px 1px #000000;    
 }
 
-section{
-  padding: 10px;
-}
 /*background*/
 .bg-dark{
   background: #160b4E;
@@ -83,6 +80,18 @@ section{
   padding: 20px;
 }
 /*text*/
+.text-dark{
+  color: #160b4E;
+}
+.text-primary{
+  color: #3132cB;
+}
+.text-danger{
+  color: #f80000;
+}
+.text-light{
+  color: #ffffff;
+}
 .text-host{
   position: absolute;
   margin-top: 50px;
@@ -92,7 +101,6 @@ section{
   align-items: center;
   display: inline;
   text-shadow: 2px 1px 2px #000000;
-  color: #f80000;
   font-size: 100%;
   font-weight: normal;
   text-transform: capitalize;
@@ -105,7 +113,6 @@ section{
 }
 .title-2{
   margin-bottom: 20px;
-  color: #f80000;
   font-size:120%;
   font-weight: normal;
   text-transform: capitalize;
@@ -186,6 +193,9 @@ p,div{
 }
 
 /*section*/
+section{
+  padding: 10px;
+}
 .about{
   padding-top: 50px;
 }
