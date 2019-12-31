@@ -6,7 +6,7 @@
 }
 
 .typewriter p:nth-child(1){
-    animation: typing 4s infinite;
+    animation: typing 5s infinite;
 }
 /*.typewriter p:nth-child(2){
     animation: typing 5s infinite;
