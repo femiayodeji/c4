@@ -2,11 +2,10 @@
     width: 1px;
     white-space: nowrap;
     overflow: hidden;
+    animation: typing 5s infinite;
+    border-right: 1px solid #ffffff;
 }
 
-.typewriter{
-    animation: typing 5s infinite;
-}
 @keyframes typing{
     0%{
         width: 2px;

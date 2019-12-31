@@ -4,7 +4,7 @@ body{
   font-family: century gothic, sans-serif;
   overflow-x: hidden !important;
 }
-.navbar ul {
+.navoptions ul {
   /*display: none;*/
   list-style-type: none;
   background-color: rgb(22,11,78);
@@ -20,11 +20,11 @@ body{
   border-radius: 0 15px;
 }
 
-.navbar li {
+.navoptions li {
   float: left;
 }
 
-.navbar li a {
+.navoptions li a {
   display: block;
   color: white;
   text-align: center;
@@ -32,12 +32,12 @@ body{
   text-decoration: none;
 }
 
-.navbar li a:hover,.navbar li a:active,.navbar li a:focus {
-  background-color: #3132cB;
+.navoptions li a:hover,.navoptions li a:active,.navoptions li a:focus {
+  background-color: #3132cB !important;
 }
 
-.navbar .active {
-  background-color: #3132cB;
+.navoptions .active {
+  background-color: #3132cB !important;
 }
 
 .scene{
@@ -67,12 +67,12 @@ body{
 
 /*background*/
 .bg-dark{
-  background: #160b4E;
-  color: #ffffff;
+  background: #160b4E !important;
+  color: #ffffff !important;
 }
 .bg-primary{
-  background: #3132cB;
-  color: #ffffff;
+  background: #3132cB !important;
+  color: #ffffff !important;
 }
 .bg-dark a,.bg-primary a {
   color: #ffffff !important;
@@ -84,16 +84,13 @@ body{
 }
 /*text*/
 .text-dark{
-  color: #160b4E;
+  color: #160b4E !important;
 }
 .text-primary{
-  color: rgb(22,112,240);
+  color: rgb(22,112,240) !important;
 }
 .text-danger{
-  color: #f80000;
-}
-.text-light{
-  color: #ffffff;
+  color: #f80000 !important;
 }
 .text-host{
   position: absolute;
@@ -120,9 +117,6 @@ body{
   font-weight: normal;
   text-transform: capitalize;
 }
-.header{
-  color: #160b4E/* #3132cB*/;
-}
 .brand{
   font-weight: bolder;
 }
@@ -131,38 +125,7 @@ body{
     font-size: 70%;
     font-weight: normal;    
 }
-/*gutter*/
-.m-0{
-  margin: 0px;
-}
-.m-1{
-  margin: 8px;
-}
-.m-2{
-  margin: 16px;
-}
-.m-3{
-  margin: 32px;
-}
-.m-4{
-  margin: 64px;
-}
 
-.p-0{
-  padding: 0px;
-}
-.p-1{
-  padding: 4px;
-}
-.p-2{
-  padding: 8px;
-}
-.p-3{
-  padding: 12px;
-}
-.p-4{
-  padding: 16px;
-}
 br,hr{
   margin: 10px 0;
 }
@@ -180,19 +143,17 @@ p,div{
 }
 .icon{
   font-size: 100px;
-  font-weight: bolder;
-  font-family: century gothic, sans-serif;
-  letter-spacing: 20px;
+  margin: 5px;
 }
 
 .shadow{
   box-shadow: 10px 10px 16px rgba(0,0,0,0.3) !important;
 }
 .border-top{
-  border-top: 6px solid #160b4E;
+  border-top: 2px solid #160b4E !important;
 }
 .border-left{
-  border-left: 6px solid #160b4E;
+  border-left: 2px solid #160b4E !important;
 }
 
 /*section*/
