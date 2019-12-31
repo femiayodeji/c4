@@ -1,6 +1,6 @@
 .glow{
     background: rgba(22,11,78,0.8);
-    box-shadow: 2px 2px 2px 15px rgba(22,11,60,0.3);
+    box-shadow: 2px 2px 15px rgba(22,11,60,0.3);
     color: rgba(22,11,78,0.8);
     padding: 20px;
     font-family: sans-serif;
