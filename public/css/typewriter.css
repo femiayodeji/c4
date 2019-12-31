@@ -1,7 +1,5 @@
 .typewriter{
     width: 1px;
-    height: 40px;
-    padding: 7px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -11,26 +9,24 @@
 }
 @keyframes typing{
     0%{
-        border-right: 1px solid rgb(22,112,240);
         width: 2px;
     }
-    10%{
-        border: none;
-    }
     20%{
-        border-right: 1px solid rgb(22,112,240);
+        width: 60px;
+    }
+    40%{
+        width: 120px;
     }
     50%{
         width: 190px;
     }
     60%{
-        border: none;
+        width: 120px;
     }
     80%{
-        border-right: 1px solid rgb(22,112,240);
+        width: 60px;
     }
     100%{
-        border-right: 1px solid rgb(22,112,240);
         width: 2px;
     }
  }
