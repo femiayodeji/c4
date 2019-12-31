@@ -1,6 +1,5 @@
 .typewriter p{
     width: 1px;
-    font-size: 100%;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -17,15 +16,20 @@
         border-right: 1px solid #000;
         width: 2px;
     }
-    25%{
+    10%{
         border: none;
+    }
+    20%{
+        border-right: 1px solid #000;
     }
     50%{
-        border-right: 1px solid #000;
-        width: 240px;
+        width: 190px;
     }
-    75%{
+    60%{
         border: none;
+    }
+    80%{
+        border-right: 1px solid #000;
     }
     100%{
         border-right: 1px solid #000;

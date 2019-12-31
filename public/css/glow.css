@@ -1,9 +1,11 @@
 .glow{
     background: rgba(22,11,78,0.8);
-    box-shadow: 2px 2px 15px rgba(22,11,60,0.3);
+    border-radius: 20px;
+    width: 230px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgba(22,11,60,0.7);
     color: rgba(22,11,78,0.8);
     padding: 20px;
-    font-family: sans-serif;
 }
 .glow > span{
     text-transform: uppercase;
